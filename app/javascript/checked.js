@@ -26,6 +26,7 @@ function check() {
           return null;
         }
       }
+      // リクエストが送信できなかった時
       XHR.onerror = () => {
         alert("Request failed");
       };
