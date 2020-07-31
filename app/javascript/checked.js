@@ -25,6 +25,9 @@ function check() {
         } else {
           return null;
         }
+ master
+      }//
+
       }
       // リクエストが送信できなかった時
       XHR.onerror = () => {
